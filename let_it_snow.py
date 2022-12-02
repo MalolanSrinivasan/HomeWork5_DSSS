@@ -13,7 +13,7 @@ def main(speed=0, bg_color="grey"):
     # change background color
     turtle_screen.bgcolor(bg_color)
    # myTurtle.color('Red')
-    colours_turtle = ['Red','goldenrod','cyan' ,'deep pink','black', 'white', 'green yellow','cornflower blue','wheat','tan']
+    colours_turtle = ['Red','goldenrod','cyan' ,'deep pink','black', 'white', 'green yellow','cornflower blue','wheat','tan','firebrick','aquamarine']
  
     """TODO: define different colors here"""
     
@@ -22,8 +22,9 @@ def main(speed=0, bg_color="grey"):
         # define some params
         size = 18
         pos = [np.random.randint(-300, 300), np.random.randint(-300, 300)]
-        myTurtle.color(random.choice(colours_turtle))
+        
         """TODO: set snowflake color here (one of the colors defined above)"""
+        myTurtle.color(random.choice(colours_turtle))
 
         # Go to the start position of the snowflake
         myTurtle.penup()
