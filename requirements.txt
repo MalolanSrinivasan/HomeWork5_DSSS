@@ -1,0 +1,4 @@
+numpy==1.21.5
+setuptools==63.4.1
+turtle #added manually since pipreqs did not include this
+random #added manually since pipreqs did not include this
